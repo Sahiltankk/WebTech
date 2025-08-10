@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lorem Ipsum</title>
+
+    <script>
+        // Array of image file paths
+        const images = [
+         'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-01.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-02.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-03.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-04.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-05.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-06.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-07.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-08.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-09.png',
+        'versatile-user-character-2024-05-15-17-24-00-utc/varsetile user character/varsetile user character-10.png'
+        ];
+
+        // Pick a random images
+        function getRandomImage() {
+            const randomIndex = Math.floor(Math.random() * images.length);
+            return images[randomIndex];
+        }
+
+        // Set the random image when page loads
+        window.onload = function() {
+            document.getElementById('randomImage').src = getRandomImage();
+        }
+    </script>
+
+</head>
+<body>
+<img id="randomImage" alt="Random Person" style="max-width:300px; display:block; margin:20px auto;">
+    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.congue.</h1>
+    
+
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus 
+        sollicitudin posuere. Nulla nec risus suscipit, consectetur nisl in, 
+        rhoncus urna. Aenean ut consectetur tellus. Donec laoreet metus id ante
+         scelerisque molestie. Quisque tellus odio, ullamcorper nec dapibus ac,
+          posuere a urna. Suspendisse ultrices, est sit amet faucibus eleifend, 
+          nisi nisl pellentesque velit, eget feugiat sapien ipsum id purus. 
+          Vivamus ac lacinia mi. Sed lacus leo, facilisis at turpis ut, 
+          pharetra pulvinar enim. Praesent eget nunc maximus, efficitur 
+          urna quis, vulputate leo.</p>
+
+    <h2> Ut arcu lectus, egestas euismod </h2>
+
+         <ul>
+            <li>Nam commodo</li>
+            <li>Vivamus dolor</li>
+            <li>Suspendisse eu</li>
+            <li>Phasellus at</li>
+         </ul>
+
+    <h2>sollicitudin blandit, posuere.</h2>
+
+        <ol>
+            <li>Morbi molestie</li>
+            <li>Etiam eget</li>
+            <li>Proin pulvinar</li>
+        </ol>
+</body>
+</html>
