@@ -6,7 +6,6 @@
     <title>Lorem Ipsum</title>
 
     <script>
-        // Array of image file paths
         const images = [
          'versatile-user-character/varsetile user character/varsetile user character-01.png',
         'versatile-user-character/varsetile user character/varsetile user character-02.png',
@@ -20,13 +19,11 @@
         'versatile-user-character/varsetile user character/varsetile user character-10.png'
         ];
 
-        // Pick a random images
         function getRandomImage() {
             const randomIndex = Math.floor(Math.random() * images.length);
             return images[randomIndex];
         }
 
-        // Set the random image when page loads
         window.onload = function() {
             document.getElementById('randomImage').src = getRandomImage();
         }
@@ -64,5 +61,19 @@
             <li>Etiam eget</li>
             <li>Proin pulvinar</li>
         </ol>
+
+        <p>
+  <b>Lorem ipsum</b> dolor sit amet, consectetur <i>adipiscing elit</i>. 
+  Duis semper <u>tincidunt lorem</u>, non euismod urna facilisis eu.
+  Suspendisse aliquet varius <s>arcu ornare</s> placerat. Praesent 
+  cursus tellus quis <b>ex porta</b>, at placerat ex rhoncus. Donec
+  nisl sem, dignissim vitae <u>mauris tempor</u>, varius lacinia erat.
+  Nulla convallis sapien in <i>nisi dapibus</i> viverra. Donec id molestie sapien,
+  sed <del>molestie est</del>. Morbi nec est facilisis ipsum iaculis ultricies.
+  Cras lacus ante, <b>placerat maximus</b> elementum vel, sodales sit amet ipsum.
+  Cras dui ex, mollis et bibendum a, congue nec sapien. 
+  Proin nec ligula vitae <u>tellus</u>.
+</p>
+
 </body>
 </html>
